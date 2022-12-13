@@ -26,8 +26,14 @@
     <title>OpenWeather API</title>
 </head>
 
-<body>
+<body id="body">
 
+    <div class="theme">
+        <button id="toggleBtn">
+            <p id="dark-theme">Dark<i class="fa-solid fa-moon"></i></p>
+            <p id="light-theme">Light<i class="fa-solid fa-sun"></i></p>
+        </button>
+    </div>
     <div class="container">
         <div class="form">
             <h1>Confira o clima em:</h1>
@@ -37,8 +43,8 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </div>
+            <p id="error-alert">Ops... cidade não localizada.</p>
         </div>
-
         <div id="weather-data" class="hide">
             <h2>
                 <i class="fa-solid fa-location-dot"></i>

@@ -35,6 +35,7 @@ const showWeatherData = async (city) => {
 
     if (!data.name) {
         alert("Cidade não localizada.");
+        window.location.reload();
     } else {
         cityElement.innerText = data.name;
         countryElement.src = apiCountryUrl + `${data.sys.country}`;

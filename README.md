@@ -2,7 +2,7 @@
 
 ### **Sobre o projeto:**
 
-- Trata-se de uma aplicação web que, após digitado o nome de determinada cidade, acessa os dados contidos na API Open Weather Map, relacionados às condições do tempo no momento, exibindo-os na tela por meio de um layout objetivo e responsivo. Há, ainda, o consumo da API Country Flags, a fim de exibir a bandeira do paìs ao qual a cidade escolhida pertence.
+- Trata-se de uma aplicação web que, digitado o nome de determinada cidade, acessa os dados contidos na API Open Weather Map, relacionados às condições do tempo no momento, exibindo-os na tela por meio de um layout objetivo e responsivo. Há, ainda, o consumo da API Country Flags, a fim de exibir a bandeira do paìs ao qual a cidade escolhida pertence.
 
 - Durante o carregamento das informações, é exibido ao usuário uma animação de loading e, caso a cidade digitada não seja localizada, será exibida uma mensagem de erro, informando qual o problema.
 

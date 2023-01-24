@@ -1,5 +1,7 @@
 # Weather API :sunny: :cloud_with_rain:
 
+<img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=success&style=for-the-badge"/> <img src="http://img.shields.io/static/v1?label=release%20date&message=DECEMBER%202022&color=green&style=for-the-badge"/> <img src="http://img.shields.io/static/v1?label=license&message=MIT&color=informational&style=for-the-badge"/>
+
 ### **Sobre o projeto:**
 
 - Trata-se de uma aplicação web que, digitado o nome de determinada cidade, acessa os dados contidos na API Open Weather Map, relacionados às condições do tempo no momento, exibindo-os na tela por meio de um layout objetivo e responsivo. Há, ainda, o consumo da API Country Flags, a fim de exibir a bandeira do paìs ao qual a cidade escolhida pertence.
